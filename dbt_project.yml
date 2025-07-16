@@ -41,4 +41,14 @@ models:
       +materialized: table
     staging:
       +materialized: view
+    commerce:
+      +materialized: view
+      schema: commerce
+  # This section configures the 'snowflake_spend' package
+  snowflake_spend:
+    +materialized: table
+    +enabled: false
 
+    # Make sure this specific model is enabled
+    snowflake_contract_rates:
+      +enabled: false
