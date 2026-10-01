@@ -2,7 +2,7 @@
 # Name your project! Project names should contain only lowercase characters
 # and underscores. A good package name should reflect your organization's
 # name or the intended use of these models
-name: 'jaffle_shop'
+name: 'my_new_project'
 version: '1.0.0'
 config-version: 2
 
@@ -36,19 +36,7 @@ clean-targets:         # directories to be removed by `dbt clean`
 # using the `{{ config(...) }}` macro.
 
 models:
-  jaffle_shop:
-    marts:
+  my_new_project:
+    # Applies to all files under models/example/
+    example:
       +materialized: table
-    staging:
-      +materialized: view
-    commerce:
-      +materialized: view
-      schema: commerce
-  # This section configures the 'snowflake_spend' package
-  snowflake_spend:
-    +materialized: table
-    +enabled: false
-
-    # Make sure this specific model is enabled
-    snowflake_contract_rates:
-      +enabled: false
