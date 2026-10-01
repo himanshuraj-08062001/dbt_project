@@ -5,16 +5,13 @@ packages:
   - name: github
     package: fivetran/github
     version: 0.9.1
-  - name: snowflake_spend
-    package: gitlabhq/snowflake_spend
-    version: 1.4.0
   - name: github_source
     package: fivetran/github_source
     version: 0.9.1
   - name: fivetran_utils
     package: fivetran/fivetran_utils
-    version: 0.4.10
+    version: 0.4.13
   - name: spark_utils
     package: dbt-labs/spark_utils
-    version: 0.3.0
-sha1_hash: b9f66fe890f8374450398d4de14f587b32845889
+    version: 0.3.3
+sha1_hash: da9974d249dfd1a0aab9cbe67bb882b545965fcb
