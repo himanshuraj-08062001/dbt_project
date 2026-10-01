@@ -1,0 +1,20 @@
+packages:
+  - name: dbt_utils
+    package: dbt-labs/dbt_utils
+    version: 1.3.0
+  - name: github
+    package: fivetran/github
+    version: 0.9.1
+  - name: snowflake_spend
+    package: gitlabhq/snowflake_spend
+    version: 1.4.0
+  - name: github_source
+    package: fivetran/github_source
+    version: 0.9.1
+  - name: fivetran_utils
+    package: fivetran/fivetran_utils
+    version: 0.4.10
+  - name: spark_utils
+    package: dbt-labs/spark_utils
+    version: 0.3.0
+sha1_hash: b9f66fe890f8374450398d4de14f587b32845889
